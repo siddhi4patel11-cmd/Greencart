@@ -14,14 +14,10 @@ import { ToastContainer } from 'react-toastify'
 const App = () => {
   return (
     <div className='relative'>
-        
-        
-
       <UserProvider>
         <BrowserRouter>
         <Login/>
-      <Navbar/>
-      
+        <Navbar/>
         <Routes>
           <Route>
             <Route path="/" element={<Home/>}/>
