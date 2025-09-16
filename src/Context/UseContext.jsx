@@ -11,17 +11,17 @@ const [open, setOpen] = useState(false)
 const [cart , setCart] = useState([])
 
 const addcart = (iteams)=> {
-    setCart((prev)=>{
+    // setCart((prev)=>{
 
-        const exitingcart = prev.find((p)=> p.id === iteams.id)
+    //     const exitingcart = prev.find((p)=> p.id === iteams.id)
 
-        if(exitingcart){
-          return prev.map((e)=> e.id === iteams.id ? {...e , quantity: e.quantity +1}: e)  
-        }else{
-            return [...prev ,{...iteams, quantity : 1}];
-        }
-    })
-    toast.success("successfully")
+    //     if(exitingcart){
+    //       return prev.map((e)=> e.id === iteams.id ? {...e , quantity: e.quantity +1}: e)  
+    //     }else{
+    //         return [...prev ,{...iteams, quantity : 1}];
+    //     }
+    // })
+    // toast.success("successfully")
 
 
     setCart((prev)=>{
