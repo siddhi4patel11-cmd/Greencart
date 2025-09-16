@@ -6,9 +6,10 @@ import Allproducts from './component/Allproducts'
 import Footer from './component/Footer'
 import Productid from './component/Productid'
 import { UserProvider } from './Context/UseContext'
-import Login from './components/Login'
 import Addproduct from './component/Addproduct'
 import { ToastContainer } from 'react-toastify'
+import Login from './component/login'
+
 
 
 const App = () => {
@@ -21,9 +22,9 @@ const App = () => {
         <Routes>
           <Route>
             <Route path="/" element={<Home/>}/>
-           <Route path='/allproduct' element={<Allproducts/>}/>
-           <Route path='/productid/:id/:category' element={<Productid/>}/>
-           <Route path='/addproduct' element={<Addproduct/>}/>
+            <Route path='/allproduct' element={<Allproducts/>}/>
+            <Route path='/productid/:id/:category' element={<Productid/>}/>
+            <Route path='/addproduct' element={<Addproduct/>}/>
           </Route>
         </Routes>
       <Footer/>
