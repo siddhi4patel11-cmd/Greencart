@@ -8,7 +8,7 @@ import Productid from './component/Productid'
 import { UserProvider } from './Context/UseContext'
 import Addproduct from './component/Addproduct'
 import { ToastContainer } from 'react-toastify'
-import Login from './component/login'
+import Log from './component/Log'
 
 
 
@@ -17,7 +17,7 @@ const App = () => {
     <div className='relative'>
       <UserProvider>
         <BrowserRouter>
-        <Login/>
+        <Log/>
         <Navbar/>
         <Routes>
           <Route>

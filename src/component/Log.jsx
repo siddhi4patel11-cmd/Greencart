@@ -1,12 +1,11 @@
 import React, { useContext } from 'react'
 import { Usercontext } from '../Context/UseContext'
 
-const Login = () => {
-
-    const{open ,setOpen ,logsubmit,logChange ,login } = useContext(Usercontext);
-
+const Log = () => {
+    const {open ,setOpen ,logsubmit,logChange ,login} = useContext(Usercontext)
+    
   return (
-    <div>
+     <div>
           {open === true ?(
             
                 <div className='flex bg-black/50 justify-center items-center fixed w-full h-full  font-semibold'>
@@ -38,4 +37,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Log
