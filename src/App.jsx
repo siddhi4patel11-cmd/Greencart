@@ -6,7 +6,7 @@ import Allproducts from './component/Allproducts'
 import Footer from './component/Footer'
 import Productid from './component/Productid'
 import { UserProvider } from './Context/UseContext'
-import Login from './component/login'
+import Login from './components/Login'
 import Addproduct from './component/Addproduct'
 import { ToastContainer } from 'react-toastify'
 
